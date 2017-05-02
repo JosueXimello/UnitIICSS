@@ -1,0 +1,54 @@
+body{
+}
+
+header{
+	display: flex;
+	justify-content: center; 
+}
+
+header h2{
+	margin: 10px;
+	padding-right: 200px;
+}
+nav{
+	display: inline-block;
+	width: 500px;
+	text-align: right;
+}
+nav a{
+	font-size: 1.3em;
+	color:#87cee8;
+	padding-bottom: 3px
+	text-decoration: none;
+}
+nav a abbr{
+	text-decoration: none;
+}
+.pCont{
+
+}
+ul{
+	list-style: none;
+}
+#concept li>a{
+	background-color: grey;
+	color: white;
+	padding: 10px;
+	display: block;
+	text-decoration: none;
+}
+#concept li>a:hover{
+	color:#000;
+	background-color: #eaeaea;
+}
+#concept>li{
+	float: left;
+	text-align: center;
+}
+#concept>li>ul{
+	display: none;
+}
+#concept>li:hover>ul{
+	display: block;
+	
+}

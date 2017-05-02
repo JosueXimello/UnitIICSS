@@ -1,0 +1,50 @@
+#Header{
+	text-align: left;
+	background-color: green;
+	font-size: 1.2em;
+}
+
+#col1{
+	text-align: center;
+	background-color: red;
+	font-size: 10em;
+}
+#col2{
+	text-align: center;
+	background-color: red;
+	font-size: 10em;
+}
+#col3{
+	text-align: center;
+	background-color: red;
+	font-size: 10em;
+}
+
+#Footer{
+	font-size: 1em;
+	background-color: yellow;
+}
+#F1{
+	text-align: right;
+}
+#F2{
+	text-align:left;
+}
+
+@media (max-width: 768px ) {
+	#col1{
+		text-align: left;
+		background-color: red;
+		font-size: 10em;
+	}
+	#col2{
+		text-align: right;
+		background-color: red;
+		font-size: 10em;
+	}
+	#col3{
+		text-align: center;
+		background-color: red;
+		font-size: 10em;
+	}	
+}
